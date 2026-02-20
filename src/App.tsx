@@ -181,7 +181,7 @@ export default function App() {
            animate={{ opacity: 1, scale: 1 }}
            transition={{ delay: 0.6 }}
         >
-          <Button href="go" className="w-full md:w-auto">
+          <Button href="#go" className="w-full md:w-auto">
             GET THE EBOOK NOW <ChevronRight className="inline-block ml-2 w-8 h-8" />
           </Button>
         </motion.div>
@@ -458,7 +458,7 @@ export default function App() {
           <p>Or you can close this page… and stay in the same position 6 months from now.</p>
         </div>
         
-        <Button href="go" className="w-full md:w-auto px-16">
+        <Button href="#go" className="w-full md:w-auto px-16">
           GET THE EBOOK NOW
         </Button>
         
