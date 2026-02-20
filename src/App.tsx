@@ -181,9 +181,18 @@ export default function App() {
            animate={{ opacity: 1, scale: 1 }}
            transition={{ delay: 0.6 }}
         >
-          <Button href="#go" className="w-full md:w-auto">
-            GET THE EBOOK NOW <ChevronRight className="inline-block ml-2 w-8 h-8" />
-          </Button>
+          <Button
+  className="w-full md:w-auto"
+  onClick={() =>
+    document.getElementById("download")?.scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    })
+  }
+>
+  GET THE EBOOK NOW
+  <ChevronRight className="inline-block ml-2 w-8 h-8" />
+</Button>
         </motion.div>
       </Section>
 
@@ -374,7 +383,7 @@ export default function App() {
               />
             </div>
 
-            <Button id="go" className="w-full mb-8">
+            <Button id="download" className="w-full mb-8">
               DOWNLOAD THE EBOOK NOW
             </Button>
 
@@ -458,9 +467,17 @@ export default function App() {
           <p>Or you can close this page… and stay in the same position 6 months from now.</p>
         </div>
         
-        <Button href="#go" className="w-full md:w-auto px-16">
-          GET THE EBOOK NOW
-        </Button>
+        <Button
+  className="w-full mb-8"
+  onClick={() =>
+    document.getElementById("download")?.scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    })
+  }
+>
+  DOWNLOAD THE EBOOK NOW
+</Button>
         
         <div className="mt-24 text-gray-600 text-sm">
           &copy; {new Date().getFullYear()} 4K YT Watch Hours. All rights reserved.
