@@ -390,9 +390,13 @@ const scrollToDownload = () => {
               />
             </div>
 
-            <Button ref={downloadRef} className="w-full mb-8">
-              DOWNLOAD THE EBOOK NOW
-            </Button>
+            <Button
+  ref={downloadRef}
+  className="w-full mb-8"
+  onClick={() => window.open("https://warriorplus.com/o2/a/abcd123/0", "_blank")}
+>
+  DOWNLOAD THE EBOOK NOW
+</Button>
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-left border-t border-white/10 pt-12">
               <div className="flex items-center gap-4">
