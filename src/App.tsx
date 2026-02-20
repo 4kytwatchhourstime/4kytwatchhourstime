@@ -474,7 +474,7 @@ const scrollToDownload = () => {
           <p>Or you can close this page… and stay in the same position 6 months from now.</p>
         </div>
         
-        <Button onClick={scrollToDownload} className="w-full mb-8">
+        <Button onClick={scrollToDownload} className="mb-8">
   GET THE EBOOK NOW
 </Button>
         
