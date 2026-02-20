@@ -216,7 +216,7 @@ export default function App() {
             </div>
 
             <div className="space-y-6 text-lg text-gray-300">
-              <p>And this is very painful... Because without 4,000 watch hours, <span className="text-white font-bold">YouTube will never pay you.</span></p>
+              <p>And this is very painful... Because without 4,000 watch hours, <span className="text-white font-bold">YouTube will never allow you to monetize your channel.</span></p>
               <div className="h-px bg-white/10 w-full my-8" />
               <h4 className="text-2xl font-black text-white uppercase tracking-tight">This is a brutal reality that is rarely talked about…</h4>
               <p>Many YouTubers upload dozens… even hundreds of videos… and still fail to reach 4,000 watch hours.</p>
