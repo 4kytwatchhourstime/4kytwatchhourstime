@@ -2,8 +2,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
   CheckCircle2, 
@@ -118,6 +117,14 @@ const Section = ({ children, className = "" }: { children: React.ReactNode, clas
 );
 
 export default function App() {
+  const downloadRef = useRef<HTMLButtonElement | null>(null);
+
+const scrollToDownload = () => {
+  downloadRef.current?.scrollIntoView({
+    behavior: "smooth",
+    block: "center"
+  });
+};
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white font-sans selection:bg-[#FFD700] selection:text-black">
       {/* Top Bar Warning */}
@@ -181,15 +188,7 @@ export default function App() {
            animate={{ opacity: 1, scale: 1 }}
            transition={{ delay: 0.6 }}
         >
-          <Button
-  className="w-full md:w-auto"
-  onClick={() =>
-    document.getElementById("download")?.scrollIntoView({
-      behavior: "smooth",
-      block: "center"
-    })
-  }
->
+          <Button onClick={scrollToDownload} className="w-full md:w-auto">
   GET THE EBOOK NOW
   <ChevronRight className="inline-block ml-2 w-8 h-8" />
 </Button>
@@ -383,7 +382,7 @@ export default function App() {
               />
             </div>
 
-            <Button id="download" className="w-full mb-8">
+            <Button ref={downloadRef} className="w-full mb-8">
               DOWNLOAD THE EBOOK NOW
             </Button>
 
@@ -467,16 +466,8 @@ export default function App() {
           <p>Or you can close this page… and stay in the same position 6 months from now.</p>
         </div>
         
-        <Button
-  className="w-full mb-8"
-  onClick={() =>
-    document.getElementById("download")?.scrollIntoView({
-      behavior: "smooth",
-      block: "center"
-    })
-  }
->
-  DOWNLOAD THE EBOOK NOW
+        <Button onClick={scrollToDownload} className="w-full mb-8">
+  GET THE EBOOK NOW
 </Button>
         
         <div className="mt-24 text-gray-600 text-sm">
