@@ -101,14 +101,22 @@ const CountdownTimer = () => {
   );
 };
 
-const Button = ({ children, className = "", onClick }: { children: React.ReactNode, className?: string, onClick?: () => void }) => (
-  <button 
+const Button = React.forwardRef<
+  HTMLButtonElement,
+  {
+    children: React.ReactNode;
+    className?: string;
+    onClick?: () => void;
+  }
+>(({ children, className = "", onClick }, ref) => (
+  <button
+    ref={ref}
     onClick={onClick}
     className={`bg-[#FFD700] hover:bg-[#FFC400] text-black font-black py-6 px-8 rounded-lg text-2xl md:text-3xl uppercase tracking-tighter shadow-[0_10px_0_0_#B8860B] active:shadow-none active:translate-y-[10px] transition-all transform hover:scale-105 ${className}`}
   >
     {children}
   </button>
-);
+));
 
 const Section = ({ children, className = "" }: { children: React.ReactNode, className?: string }) => (
   <section className={`py-16 px-4 md:px-8 max-w-6xl mx-auto ${className}`}>
