@@ -152,7 +152,7 @@ export default function App() {
         >
           <div className="absolute -inset-4 bg-[#FFD700]/20 blur-3xl rounded-full"></div>
           <img 
-            src="./4k_yt_watch_hours_bundle.jpg" 
+            src="4k_yt_watch_hours_bundle.jpg" 
             alt="YouTube Mastery Bundle" 
             className="relative w-full max-w-4xl mx-auto rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10"
             referrerPolicy="no-referrer"
@@ -279,7 +279,7 @@ export default function App() {
 
             <div className="md:col-span-1 flex justify-center">
               <img 
-                src="./ebook_4k_yt_watch_hours.png" 
+                src="ebook_4k_yt_watch_hours.png" 
                 alt="Ebook Preview" 
                 className="w-full max-w-sm rounded-xl shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500"
                 referrerPolicy="no-referrer"
@@ -367,7 +367,7 @@ export default function App() {
 
             <div className="mb-12">
               <img 
-                src="./4k_yt_watch_hours_bundle.jpg" 
+                src="4k_yt_watch_hours_bundle.jpg" 
                 alt="Complete Mastery Bundle" 
                 className="w-full max-w-2xl mx-auto rounded-xl shadow-2xl border border-white/5"
                 referrerPolicy="no-referrer"
@@ -446,7 +446,7 @@ export default function App() {
       <Section className="py-32 text-center">
             <div className="mb-12">
               <img 
-                src="./4k_yt_watch_hours_bundle.jpg" 
+                src="4k_yt_watch_hours_bundle.jpg" 
                 alt="Complete Mastery Bundle" 
                 className="w-full max-w-2xl mx-auto rounded-xl shadow-2xl border border-white/5"
                 referrerPolicy="no-referrer"
