@@ -111,7 +111,7 @@ export default function OptInPage() {
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
                                 required 
-                                placeholder="Enter your name..." 
+                                placeholder="Enter your first name..." 
                                 className="w-full bg-black border border-white/20 rounded-xl py-4 pl-12 pr-6 focus:outline-none focus:border-[#FFD700] transition-all text-white placeholder:text-gray-700"
                             />
                         </div>
