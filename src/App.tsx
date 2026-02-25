@@ -13,11 +13,11 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<OptInPage />} />
+        <Route path="/" element={<SalesPage />} />
+        <Route path="/opt-in" element={<OptInPage />} />
         <Route path="/thank-you" element={<ThankYouPage />} />
-        <Route path="/sales" element={<SalesPage />} />
-        {/* Fallback to Opt-in */}
-        <Route path="*" element={<OptInPage />} />
+        {/* Fallback to Sales Page */}
+        <Route path="*" element={<SalesPage />} />
       </Routes>
     </Router>
   );
