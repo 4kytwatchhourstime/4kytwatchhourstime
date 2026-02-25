@@ -402,8 +402,8 @@ const scrollToDownload = () => {
               <div className="flex items-center gap-4">
                 <ShieldCheck className="w-16 h-16 text-emerald-500" />
                 <div>
-                  <h4 className="font-black text-xl">100% RISK-FREE</h4>
-                  <p className="text-gray-400">If you are not satisfied, you can ask for a refund. No questions asked.</p>
+                  <h4 className="font-black text-xl">100% ACTION-BASED GUARANTEE</h4>
+                  <p className="text-gray-400">If you follow the steps inside this ebook, you will understand exactly how to accelerate your YouTube watch hours using proven strategies, free tools, and beginner-friendly methods designed for real implementation.</p>
                 </div>
               </div>
             </div>
