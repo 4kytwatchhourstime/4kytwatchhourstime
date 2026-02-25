@@ -21,7 +21,7 @@ export default function OptInPage() {
     // Simulate API call
     setTimeout(() => {
       // In a real app, you'd send this to your backend or email service
-      console.log('Opt-in:', { name, email });
+      console.log('free:', { name, email });
       setIsSubmitting(false);
       navigate('/sales');
     }, 1000);
