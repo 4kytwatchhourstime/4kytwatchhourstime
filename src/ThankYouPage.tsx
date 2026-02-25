@@ -52,7 +52,7 @@ export default function ThankYouPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-black leading-tight tracking-tighter"
           >
-            SUCCESS!<br/> YOUR BLUEPRINT IS <span className="text-[#FFD700]">ON THE WAY!</span>
+            SUCCESS!<br/>YOUR BLUEPRINT IS<br/><span className="text-[#FFD700]">ON THE WAY!</span>
           </motion.h1>
 
           <motion.div
@@ -110,4 +110,5 @@ export default function ThankYouPage() {
     </div>
   );
 }
+
 
