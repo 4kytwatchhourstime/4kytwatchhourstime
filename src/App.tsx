@@ -14,7 +14,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<SalesPage />} />
-        <Route path="/opt-in" element={<OptInPage />} />
+        <Route path="/free" element={<OptInPage />} />
         <Route path="/thank-you" element={<ThankYouPage />} />
         {/* Fallback to Sales Page */}
         <Route path="*" element={<SalesPage />} />
@@ -22,3 +22,4 @@ export default function App() {
     </Router>
   );
 }
+
