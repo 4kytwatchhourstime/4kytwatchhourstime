@@ -393,7 +393,7 @@ const scrollToDownload = () => {
             <Button
   ref={downloadRef}
   className="w-full mb-8"
-  onClick={() => window.open("https://warriorplus.com/o2/a/abcd123/0", "_blank")}
+  onClick={() => window.open("https://4kytwatchhours.vercel.app", "_blank")}
 >
   DOWNLOAD THE EBOOK NOW
 </Button>
