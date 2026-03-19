@@ -9,7 +9,7 @@ import OptInPage from './OptInPage';
 import SalesPage from './SalesPage';
 import ThankYouPage from './ThankYouPage';
 import About from './AboutPage';
-import About from './JVSales';
+import About from './JVSalesPage';
 
 export default function App() {
   return (
