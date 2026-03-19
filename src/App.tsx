@@ -8,14 +8,14 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import OptInPage from './OptInPage';
 import SalesPage from './SalesPage';
 import ThankYouPage from './ThankYouPage';
-import ThankYouPage from './AboutPage';
+import About from './AboutPage';
 
 export default function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<SalesPage />} />
-        <Route path="/free" element={<OptInPage />} />
+        <Route path="/opt-in" element={<OptInPage />} />
         <Route path="/thank-you" element={<ThankYouPage />} />
         <Route path="/about" element={<About />} />
         {/* Fallback to Sales Page */}
@@ -24,4 +24,3 @@ export default function App() {
     </Router>
   );
 }
-
