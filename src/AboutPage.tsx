@@ -34,7 +34,7 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl font-black leading-tight tracking-tighter"
           >
-            ABOUT <span className="text-[#FFD700]">US</span>
+            ABOUT <span className="text-[#FFD700]">ME</span>
           </motion.h1>
           
           <motion.p
@@ -60,7 +60,7 @@ export default function About() {
               <h2 className="text-xl font-bold uppercase tracking-widest">Our Mission</h2>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Our mission is simple: To provide creators with the exact blueprint needed to reach 4,000 watch hours without the burnout. We believe monetization shouldn't be a mystery, but a milestone.
+              My mission is simple: To provide creators with the exact blueprint needed to reach 4,000 watch hours without the burnout. I believe monetization shouldn't be a mystery, but a milestone.
             </p>
           </motion.div>
 
@@ -72,10 +72,10 @@ export default function About() {
           >
             <div className="flex items-center gap-3 text-[#FFD700]">
               <Users className="w-6 h-6" />
-              <h2 className="text-xl font-bold uppercase tracking-widest">Who We Are</h2>
+              <h2 className="text-xl font-bold uppercase tracking-widest">Who I Am</h2>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              We are a collective of YouTube growth experts, data analysts, and creators who have spent years decoding the algorithm. We've turned our failures into a proven system for your success.
+              I am not an expert, not a seasoned content creator, and not an experienced YouTuber. I am simply a beginner who happened to discover a simple way to reach 4,000 watch hours faster and easier.
             </p>
           </motion.div>
         </div>
