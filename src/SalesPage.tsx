@@ -138,7 +138,7 @@ const scrollToDownload = () => {
       {/* Top Bar Warning */}
       <img src="https://warriorplus.com/o2/btn/pn100011001/x2qlr4/wvx3ns/460435" height="1" width="1" style="visibility: hidden;">
       <div className="bg-red-600 text-white text-center py-3 px-4 font-bold text-sm md:text-base uppercase tracking-widest">
-        0WARNING: Do not read this if you are not serious about monetizing your YouTube channel
+        WARNING: Do not read this if you are not serious about monetizing your YouTube channel
       </div>
 
       {/* Hero Section */}
