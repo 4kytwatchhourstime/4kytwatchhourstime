@@ -145,7 +145,7 @@ const scrollToDownload = () => {
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-[#FFD700] font-bold text-xl md:text-2xl mb-6 uppercase tracking-tight"
+          className="text-[#FFD700] font-bold text-xl md:text-2.5xl mb-6 uppercase tracking-tight"
         >
           ATTENTION YOUTUBERS WHO HAVE REACHED 1,000 SUBSCRIBERS BUT WATCH TIME IS STILL STUCK...
         </motion.h2>
