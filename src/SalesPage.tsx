@@ -379,7 +379,7 @@ const scrollToDownload = () => {
             <p className="text-xl mb-8">You can get it now for only:</p>
             
             <div className="text-7xl md:text-9xl font-black text-[#FFD700] mb-8 tracking-tighter">
-              $9
+              $11.99
             </div>
 
             <div className="mb-12">
