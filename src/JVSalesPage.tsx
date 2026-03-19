@@ -393,7 +393,7 @@ const scrollToDownload = () => {
             <Button
               ref={downloadRef}
               className="w-full mb-8"
-              onClick={() => window.open("https://warriorplus.com/o2/buy/x2qlr4/wvx3ns/tt1ygq", "_blank")}
+              onClick={() => window.open("https://www.jvzoo.com/b/0/436177/1", "_blank")}
             >
               DOWNLOAD THE EBOOK NOW
             </Button>
