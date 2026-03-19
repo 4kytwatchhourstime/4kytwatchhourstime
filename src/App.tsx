@@ -17,7 +17,7 @@ export default function App() {
         <Route path="/" element={<SalesPage />} />
         <Route path="/free" element={<OptInPage />} />
         <Route path="/thank-you" element={<ThankYouPage />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/about" element={<About />} />
         {/* Fallback to Sales Page */}
         <Route path="*" element={<SalesPage />} />
       </Routes>
