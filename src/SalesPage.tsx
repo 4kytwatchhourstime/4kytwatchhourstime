@@ -391,13 +391,15 @@ const scrollToDownload = () => {
               />
             </div>
 
-            <Button
+            <a href="https://warriorplus.com/o2/buy/x2qlr4/wvx3ns/tt1ygq"><img src="https://warriorplus.com/o2/btn/fn100011001/x2qlr4/wvx3ns/460435"></a>
+
+            <!-- <Button
               ref={downloadRef}
               className="w-full mb-8"
               onClick={() => window.open("https://warriorplus.com/o2/buy/x2qlr4/wvx3ns/tt1ygq", "_blank")}
             >
               DOWNLOAD THE EBOOK NOW
-            </Button>
+            </Button> -->
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-left border-t border-white/10 pt-12">
               <div className="flex items-center gap-4">
