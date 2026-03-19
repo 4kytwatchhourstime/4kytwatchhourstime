@@ -89,7 +89,11 @@ export default function About() {
         >
           <h3 className="text-3xl font-black tracking-tight">CONTACT <span className="text-[#FFD700]">ME</span></h3>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-            I saw too many talented creators — including myself — give up right before the finish line. The “4,000 watch hours wall” is where most dreams come to a stop. I created this blueprint to make sure your voice gets heard and your hard work gets the results it deserves. If you want updates, new strategies, or improvements to this system… You can reach me here:
+            I saw too many talented creators — including myself — give up right before the finish line. The “4,000 watch hours wall” is where most dreams come to a stop. I created this blueprint to make sure your voice gets heard and your hard work gets the results it deserves. If you want updates, new strategies, or improvements to this system… You can reach me here: <script>
+  const user = "4kytwatchhours";
+  const domain = "gmail.com";
+  document.write(user + "@" + domain);
+</script>
           </p>
         </motion.div>
         
