@@ -487,7 +487,6 @@ const scrollToDownload = () => {
           <br />
           Disclaimer: Results are not guaranteed and may vary from person to person depending on your effort, consistency, skills, experience, and how effectively you apply the methods described in this ebook; this ebook is intended for educational purposes only and does not promise or guarantee specific results. Results may vary. Hard work is still required.
         </div>
-        <script type="text/javascript" src="https://warriorplus.com/o2/disclaimer/x2qlr4" defer></script><div style="font-size:1px;line-height:1px;" class="wplus_spdisclaimer"></div>
       </Section>
 
       <ScrollToTop />
