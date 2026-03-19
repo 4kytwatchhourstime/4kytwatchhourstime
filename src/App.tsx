@@ -19,7 +19,7 @@ export default function App() {
         <Route path="/opt-in" element={<OptInPage />} />
         <Route path="/thank-you" element={<ThankYouPage />} />
         <Route path="/about" element={<About />} />
-        <Route path="/jv" element={<JVSalesPage />} />
+        <Route path="/jvzoo" element={<JVSalesPage />} />
         {/* Fallback to Sales Page */}
         <Route path="*" element={<SalesPage />} />
       </Routes>
