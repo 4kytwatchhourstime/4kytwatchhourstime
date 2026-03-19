@@ -87,9 +87,9 @@ export default function About() {
           transition={{ delay: 0.4 }}
           className="bg-gradient-to-b from-[#111] to-transparent p-12 rounded-[3rem] border border-white/10 text-center space-y-8"
         >
-          <h3 className="text-3xl font-black tracking-tight">WHY WE DO IT</h3>
+          <h3 className="text-3xl font-black tracking-tight">WHY I DO IT</h3>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-            We saw too many talented creators giving up just before the finish line. The "4,000-hour wall" is where most dreams go to die. We created this blueprint to ensure that your voice gets heard and your hard work gets rewarded.
+            I saw too many talented creators — including myself — give up right before the finish line. The “4,000 watch hours wall” is where most dreams come to a stop. I created this blueprint to make sure your voice gets heard and your hard work gets the results it deserves.
           </p>
         </motion.div>
 
