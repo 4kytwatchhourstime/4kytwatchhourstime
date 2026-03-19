@@ -124,7 +124,7 @@ const Section = ({ children, className = "" }: { children: React.ReactNode, clas
   </section>
 );
 
-export default function SalesPage() {
+export default function JVSalesPage() {
   const downloadRef = useRef<HTMLButtonElement | null>(null);
 
 const scrollToDownload = () => {
