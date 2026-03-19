@@ -136,7 +136,8 @@ const scrollToDownload = () => {
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white font-sans selection:bg-[#FFD700] selection:text-black">
       {/* Top Bar Warning */}
-      <div className="bg-red-600 text-white text-center py-3 px-4 font-bold text-sm md:text-base uppercase tracking-widest">
+      <img src="https://warriorplus.com/o2/btn/pn100011001/x2qlr4/wvx3ns/460435" height="1" width="1" style="visibility: hidden;">
+    <div className="bg-red-600 text-white text-center py-3 px-4 font-bold text-sm md:text-base uppercase tracking-widest">
         WARNING: Do not read this if you are not serious about monetizing your YouTube channel
       </div>
 
