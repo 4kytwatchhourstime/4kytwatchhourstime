@@ -141,7 +141,7 @@ const scrollToDownload = () => {
       </div>
 
       {/* Hero Section */}
-      <Section className="text-center pt-14 pb-20">
+      <Section className="text-center pt-16 pb-20">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
