@@ -57,7 +57,7 @@ export default function About() {
           >
             <div className="flex items-center gap-3 text-[#FFD700]">
               <Target className="w-6 h-6" />
-              <h2 className="text-xl font-bold uppercase tracking-widest">Our Mission</h2>
+              <h2 className="text-xl font-bold uppercase tracking-widest">My Mission</h2>
             </div>
             <p className="text-gray-400 leading-relaxed">
               My mission is simple: To provide creators with the exact blueprint needed to reach 4,000 watch hours without the burnout. I believe monetization shouldn't be a mystery, but a milestone.
@@ -93,6 +93,18 @@ export default function About() {
           </p>
         </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4 }}
+          className="bg-gradient-to-b from-[#111] to-transparent p-12 rounded-[3rem] border border-white/10 text-center space-y-8"
+        >
+          <h3 className="text-3xl font-black tracking-tight">CONTACT <span className="text-[#FFD700]">ME</span></h3>
+          <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
+            If you want updates, new strategies, or improvements to this system… You can reach me here:
+          </p>
+        </motion.div>
+        
         {/* Back Button */}
         <div className="flex justify-center pt-8">
           <button
