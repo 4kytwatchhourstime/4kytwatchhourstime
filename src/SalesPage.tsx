@@ -390,8 +390,6 @@ const scrollToDownload = () => {
               />
             </div>
 
-            <a href="https://warriorplus.com/o2/buy/x2qlr4/wvx3ns/tt1ygq"><img src="https://warriorplus.com/o2/btn/fn100011001/x2qlr4/wvx3ns/460435"></a>
-
             <Button
               ref={downloadRef}
               className="w-full mb-8"
