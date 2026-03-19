@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import OptInPage from './OptInPage';
 import SalesPage from './SalesPage';
 import ThankYouPage from './ThankYouPage';
+import ThankYouPage from './AboutPage';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/" element={<SalesPage />} />
         <Route path="/free" element={<OptInPage />} />
         <Route path="/thank-you" element={<ThankYouPage />} />
+        <Route path="/about" element={<AboutPage />} />
         {/* Fallback to Sales Page */}
         <Route path="*" element={<SalesPage />} />
       </Routes>
