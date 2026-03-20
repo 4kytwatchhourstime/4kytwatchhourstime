@@ -486,7 +486,7 @@ const scrollToDownload = () => {
           &copy; {new Date().getFullYear()} 4K YT Watch Hours. All rights reserved.
           <br />
             <a href="/sales" className="hover:text-[#FFD700] transition-colors">Salespage</a> | 
-            <a href="/sales" className="hover:text-[#FFD700] transition-colors">JVZoo</a> | 
+            <a href="/jvzoo" className="hover:text-[#FFD700] transition-colors">JVZoo</a> | 
             <a href="/how-to-get-4000-watch-hours" className="hover:text-[#FFD700] transition-colors">How-To Guide</a> | 
             <a href="/why-watch-hours-stuck" className="hover:text-[#FFD700] transition-colors">Troubleshooting</a>
           <br />
