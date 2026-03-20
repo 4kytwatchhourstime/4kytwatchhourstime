@@ -234,8 +234,10 @@ export default function ArticlePage() {
         {/* Footer */}
         <footer className="pt-20 border-t border-white/5 text-gray-700 text-[10px] text-center space-y-4 uppercase tracking-widest font-medium">
           <div className="flex justify-center gap-6 font-bold">
-            <a href="/about" className="hover:text-[#FFD700] transition-colors">About Us</a>
-            <a href="/sales" className="hover:text-[#FFD700] transition-colors">Sales Page</a>
+            <a href="/sales" className="hover:text-[#FFD700] transition-colors">Salespage</a> | 
+            <a href="/sales" className="hover:text-[#FFD700] transition-colors">JVZoo</a> | 
+            <a href="/how-to-get-4000-watch-hours" className="hover:text-[#FFD700] transition-colors">How-To Guide</a> | 
+            <a href="/why-watch-hours-stuck" className="hover:text-[#FFD700] transition-colors">Troubleshooting</a>
           </div>
           <p>&copy; {new Date().getFullYear()} 4K YT Watch Hours. All rights reserved.</p>
         </footer>
