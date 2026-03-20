@@ -367,12 +367,7 @@ const scrollToDownload = () => {
             <h3 className="text-2xl text-gray-500 line-through mb-2">Normal Price of This Ebook is $47</h3>
             <p className="text-lg text-gray-400 mb-8 italic">And that's still cheap... because 4,000 watch hours can unlock long-term income.</p>
             
-            <div className="bg-white/5 rounded-2xl p-6 mb-8 border border-white/10">
-              <p className="text-[#FFD700] font-black uppercase tracking-widest mb-4 flex items-center justify-center gap-2">
-                <Timer className="w-5 h-5" /> Special Offer Ends In:
-              </p>
-              <CountdownTimer />
-            </div>
+
 
             <h2 className="text-3xl md:text-4xl font-bold mb-4">But today you don't have to pay $47</h2>
             <p className="text-xl mb-8">You can get it now for only:</p>
