@@ -11,6 +11,7 @@ import ThankYouPage from './ThankYouPage';
 import About from './AboutPage';
 import JVSalesPage from './JVSalesPage';
 import ArticlePage from './ArticlePage';
+import WhyStuckPage from './WhyStuckPage';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/jvzoo" element={<JVSalesPage />} />
         <Route path="/how-to-get-4000-watch-hours" element={<ArticlePage />} />
+        <Route path="/why-watch-hours-stuck" element={<WhyStuckPage />} />
         {/* Fallback to Sales Page */}
         <Route path="*" element={<SalesPage />} />
       </Routes>
