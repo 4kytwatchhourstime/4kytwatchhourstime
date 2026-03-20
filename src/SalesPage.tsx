@@ -485,9 +485,10 @@ const scrollToDownload = () => {
         <div className="mt-24 text-gray-600 text-sm">
           &copy; {new Date().getFullYear()} 4K YT Watch Hours. All rights reserved.
           <br />
-            <a href="/sales" className="hover:text-[#FFD700] transition-colors">Salespage</a> | 
-            <a href="/jvzoo" className="hover:text-[#FFD700] transition-colors">JVZoo</a> | 
-            <a href="/how-to-get-4000-watch-hours" className="hover:text-[#FFD700] transition-colors">How-To Guide</a> | 
+            <a href="/" className="hover:text-[#FFD700] transition-colors">Get 4000 Watch Hours</a> |  
+            <a href="/sales" className="hover:text-[#FFD700] transition-colors">Salespage</a> |  
+            <a href="/jvzoo" className="hover:text-[#FFD700] transition-colors">JVZoo</a> |  
+            <a href="/how-to-get-4000-watch-hours" className="hover:text-[#FFD700] transition-colors">How-To Guide</a> |  
             <a href="/why-watch-hours-stuck" className="hover:text-[#FFD700] transition-colors">Troubleshooting</a>
           <br />
           Disclaimer: Results are not guaranteed and may vary from person to person depending on your effort, consistency, skills, experience, and how effectively you apply the methods described in this ebook; this ebook is intended for educational purposes only and does not promise or guarantee specific results. Results may vary. Hard work is still required.
