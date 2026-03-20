@@ -387,14 +387,14 @@ const scrollToDownload = () => {
                 alt="4000 YouTube Watch Hours Time" 
                 className="w-full max-w-2xl mx-auto rounded-xl shadow-2xl border border-white/5"
                 referrerPolicy="no-referrer"
-              /><img src="https://i.jvzoo.com/0/436177/99" alt="FAST: 4000 YouTube Watch Hours" border="0" width='1' height='1' />
+              />
             </div>
 
             <Button
               ref={downloadRef}
               className="w-full mb-8"
               onClick={() => window.open("https://www.jvzoo.com/b/0/436177/99", "_blank")}
-            >
+            ><img src="https://i.jvzoo.com/0/436177/99" alt="FAST: 4000 YouTube Watch Hours" border="0" width='1' height='1' />
               DOWNLOAD THE EBOOK NOW
             </Button>
 
