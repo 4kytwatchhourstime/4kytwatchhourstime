@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow important pages
+Allow: /sales
+Allow: /jvzoo
+Allow: /how-to-get-4000-watch-hours
+Allow: /why-watch-hours-stuck
+
+# Sitemap (optional but recommended)
+Sitemap: https://4kytwatchhours.vercel.app/sitemap.xml
