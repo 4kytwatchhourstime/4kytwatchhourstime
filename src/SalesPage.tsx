@@ -393,8 +393,8 @@ const scrollToDownload = () => {
             <Button
               ref={downloadRef}
               className="w-full mb-8"
-              onClick={() => window.open("https://warriorplus.com/o2/buy/x2qlr4/wvx3ns/tt1ygq", "_blank")}
-            >
+              onClick={() => window.open("https://www.jvzoo.com/b/0/436177/99", "_blank")}
+            ><img src="https://i.jvzoo.com/0/436177/99" alt="FAST: 4000 YouTube Watch Hours" border="0" width='1' height='1' />
               DOWNLOAD THE EBOOK NOW
             </Button>
 
@@ -487,9 +487,7 @@ const scrollToDownload = () => {
           <br />
             <a href="/" className="hover:text-[#FFD700] transition-colors">Get 4000 Watch Hours</a> | <a href="/sales" className="hover:text-[#FFD700] transition-colors">Salespage</a> | <a href="/jvzoo" className="hover:text-[#FFD700] transition-colors">JVZoo</a> | <a href="/how-to-get-4000-watch-hours" className="hover:text-[#FFD700] transition-colors">How-To Guide</a> | <a href="/why-watch-hours-stuck" className="hover:text-[#FFD700] transition-colors">Troubleshooting</a> | <a href="/#" className="hover:text-[#FFD700] transition-colors">Privacy</a>
           <br />
-          Results are not guaranteed and may vary from person to person depending on your effort, consistency, skills, experience, and how effectively you apply the methods described in this ebook; this ebook is intended for educational purposes only and does not promise or guarantee specific results. Results may vary. Hard work is still required.
-          <br />
-  <script type="text/javascript" src="https://warriorplus.com/o2/disclaimer/x2qlr4" defer></script><div class="wplus_spdisclaimer"></div>
+Disclaimer: Please note that this product does not provide any guarantee of income or success. The results achieved by the product owner or any other individuals mentioned are not indicative of future success or earnings. This website is not affiliated with FaceBook or any of its associated entities. Once you navigate away from FaceBook, the responsibility for the content and its usage lies solely with the user. All content on this website, including but not limited to text, images, and multimedia, is protected by copyright law and the Digital Millennium Copyright Act. Unauthorized copying, duplication, modification, or theft, whether intentional or unintentional, is strictly prohibited. Violators will be prosecuted to the fullest extent of the law. We want to clarify that JVZoo serves as the retailer for the products featured on this site. JVZoo® is a registered trademark of BBC Systems Inc., a Florida corporation located at 1809 E. Broadway Street, Suite 125, Oviedo, FL 32765, USA, and is used with permission. The role of JVZoo as a retailer does not constitute an endorsement, approval, or review of these products or any claims, statements, or opinions used in their promotion.
         </div>
       </Section>
 
