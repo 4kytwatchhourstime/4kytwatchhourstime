@@ -394,7 +394,7 @@ const scrollToDownload = () => {
               ref={downloadRef}
               className="w-full mb-8"
               onClick={() => window.open("https://www.jvzoo.com/b/0/436177/99", "_blank")}
-            ><img src="https://i.jvzoo.com/0/436177/99" alt="FAST: 4000 YouTube Watch Hours" border="0" width='1' height='1' />
+            >
               DOWNLOAD THE EBOOK NOW
             </Button>
 
